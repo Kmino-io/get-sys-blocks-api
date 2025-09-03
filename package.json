@@ -1,0 +1,18 @@
+{
+  "name": "get-sys-blocks-api",
+  "version": "1.0.0",
+  "description": "API and WebSocket server for tracking Syscoin mining blocks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test-ws": "node test-local-wss.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
